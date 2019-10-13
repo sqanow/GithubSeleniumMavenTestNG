@@ -27,10 +27,11 @@ public class SFDC_TestNGDemo {
       System.setProperty("webdriver.chrome.driver", base_dir + "\\chromedriver.exe");
       driver = new ChromeDriver();
       driver.get(base_Url);
-      String expectedTitle = "Welcome: Mercury Tours";
+      //String expectedTitle = "Welcome: Mercury Tours";
+      String expectedTitle = "Login | Salesforce";
       String actualTitle = driver.getTitle();
       Assert.assertEquals(actualTitle, expectedTitle);
-      driver.close();
+      driver.quit();
   }
 
 
@@ -44,7 +45,7 @@ public class SFDC_TestNGDemo {
       String expectedTitle = "Login | Salesforce";
       String actualTitle = driver.getTitle();
       Assert.assertEquals(actualTitle, expectedTitle);
-      driver.close();
+      driver.quit();
   }
 
 
