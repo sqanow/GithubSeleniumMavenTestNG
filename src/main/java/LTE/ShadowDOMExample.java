@@ -4,6 +4,9 @@ package LTE;
 
 //import org.junit.Assert;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 // Selenium
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -24,6 +27,7 @@ public class ShadowDOMExample {
 	String driver_dir = "C:\\Apps\\java-2019-09\\Referenced Libraries\\drivers";
 
 	
+	@BeforeMethod
 	@BeforeTest
 	public void setUp() {
 		System.out.println("Opening chrome browser");
@@ -76,6 +80,7 @@ public class ShadowDOMExample {
 		return ele;
 	}
 
+	@AfterMethod
 	@AfterTest
 	public void tearDown() {
 		driver.quit();
