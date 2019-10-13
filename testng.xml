@@ -4,8 +4,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="LTE.ShadowDOMExample"/>
-      <class name="LTE.SFDC_TestNGDemo"/>
-      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
