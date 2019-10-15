@@ -43,5 +43,6 @@
 	<classpathentry kind="lib" path="C:/Apps/java-2019-09/Referenced Libraries/selenium/selenium-java-3.141.59/libs/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="C:/Apps/java-2019-09/Referenced Libraries/selenium/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Apps/java-2019-09/Referenced Libraries/selenium/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Apps/java-2019-09/Referenced Libraries/extentreports-4.0.9.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

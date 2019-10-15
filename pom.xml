@@ -24,6 +24,11 @@
   		<version>7.0.0</version>
   		<scope>compile</scope> 
   	</dependency>
+  	<dependency>
+    	<groupId>com.aventstack</groupId>
+    	<artifactId>extentreports</artifactId>
+    	<version>4.0.9</version>
+	</dependency>
   	</dependencies>
       
     <build>
@@ -41,6 +46,7 @@
           	<suiteXmlFiles>
             	<suiteXmlFile>testng.xml</suiteXmlFile>
             	<suiteXmlFile>testng_demo.xml</suiteXmlFile>
+            	<suiteXmlFile>testng_extendreport.xml</suiteXmlFile>
             	
           	</suiteXmlFiles>
         	</configuration>
